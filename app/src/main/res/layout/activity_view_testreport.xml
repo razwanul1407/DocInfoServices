@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_testreport"
+    android:background="#C6EFF7">
+
+    <Button
+        android:id="@+id/fetchFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Fiile"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"
+        android:padding="15dp"
+        android:background="@drawable/rounded_corner"/>
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="140sp"
+        android:background="@drawable/rounded_corner"/>
+
+
+</RelativeLayout>

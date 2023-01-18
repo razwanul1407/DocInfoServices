@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainClass_Hos.Amana_Hospital.Amana_Hospital">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C6EFF7"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:text="CDM Hospital Limited"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:padding="15dp"
+            android:text="Anesthesiology"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button1"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Cardiology"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Gynecology_Obstetrics"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Medicine"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button4"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Neuromedicine"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Nephrology"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button6"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Neurosurgery"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button7"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Oncology"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button8"/>
+
+    </LinearLayout>
+        </RelativeLayout>
+
+            </ScrollView>
+
+</RelativeLayout>
+

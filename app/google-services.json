@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "231997973227",
+    "firebase_url": "https://docinfoservice2005-default-rtdb.firebaseio.com",
+    "project_id": "docinfoservice2005",
+    "storage_bucket": "docinfoservice2005.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231997973227:android:94d3bb7e7c9b9cda1a54ae",
+        "android_client_info": {
+          "package_name": "com.example.docinfoservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231997973227-a6n855cc7pfufjocs3kogem4859vulbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.docinfoservice",
+            "certificate_hash": "28fd35f3e2855711cfc425fc4fc84ff691ecf936"
+          }
+        },
+        {
+          "client_id": "231997973227-epv9f7jgjglm2ru25ncbnkeobj67be94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.docinfoservice",
+            "certificate_hash": "c27af60a3f47c56c102813c6429cc7b78c3a6a1b"
+          }
+        },
+        {
+          "client_id": "231997973227-srdjp791hols1cak6ld8bpb1ccbe11k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOnc_EKy5R3Xt3entPAmUKJQ_gs904Mvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231997973227-srdjp791hols1cak6ld8bpb1ccbe11k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

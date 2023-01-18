@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">DocInfoService</string>
+    <string-array name="categories_name">
+
+        <item>Anesthesiology</item>
+        <item>Cancer</item>
+        <item>Cardiac Surgery</item>
+        <item>Cardiology</item>
+        <item>Chest and Asthma</item>
+        <item>Child </item>
+        <item>Colorectal Surgery</item>
+        <item>Dental </item>
+        <item>Diabetes and Hormone</item>
+        <item>ENT</item>
+        <item>Eye</item>
+        <item>Gastroenterology </item>
+        <item>Gynecology and Obstetrics </item>
+        <item>General Surgery</item>
+        <item>Hematology Blood</item>
+        <item>Infertility</item>
+        <item>Kidney</item>
+        <item>Laparoscopic Surgery</item>
+        <item>Liver</item>
+        <item>Medicine</item>
+        <item>Neurology</item>
+        <item>Neuromedicine </item>
+        <item>Neurosurgery</item>
+        <item>Orthopedic</item>
+        <item>Pediatric </item>
+        <item>Plastic Surgery</item>
+        <item>Physical Medicine</item>
+        <item>Psychiatry (Mental) </item>
+        <item>Rheumatology</item>
+        <item>Sex</item>
+        <item>Skin</item>
+        <item>Urology</item>
+        <item>Vascular Surgery</item>
+
+
+    </string-array>
+
+    <string-array name="hospitallist_name">
+
+        <item>Amana Hospital</item>
+        <item>Al Arafa Hospital</item>
+        <item>CDM Hospital</item>
+        <item>Islami Bank Medical College Hospital  </item>
+        <item>Labaid Hospital  </item>
+        <item>Medipath Hospital  </item>
+        <item>Metropolitan Hospital  </item>
+        <item>Micropath Hospital  </item>
+        <item>Popular Diagnostic Center LTD  </item>
+        <item>Rajshahi Central Hospital </item>
+        <item>Rajshahi Model Hospital </item>
+        <item>Royal Hospital  </item>
+        <item>Shapla Hospital  </item>
+        <item>Sharmin Hospital </item>
+        <item>Zamzam Hospital  </item>
+
+
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_anesthesiology">Anesthesiology</string>
+    <string name="title_activity_al__arafa__hospital">Al_Arafa_Hospital</string>
+</resources>

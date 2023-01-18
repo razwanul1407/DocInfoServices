@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.docinfoservice">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DocInfoService">
+        <activity android:name=".MainClass_Hos.Zamzam_Hospital.Zamzam_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Eye"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Medicine_Rheumatology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Neurology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Piles_Fistula_Colorectal"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Zamzam_Hospital.Urology"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Sharmin_Hospital.Sharmin_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Sharmin_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Sharmin_Hospital.Gynecology"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Shapla_Hospital.Shapla_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Shapla_Hospital.Cancer"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Shapla_Hospital.Chest"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Shapla_Hospital.Kidney"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Royal_Hospital.Royal_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Colorectal"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Eye"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Neurosurgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.Urology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Royal_Hospital.General_Surgeon"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Model_Hospital.Model_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Model_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Model_Hospital.General_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Model_Hospital.General_Laparoscopic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Model_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Model_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Model_Hospital.Piles_Fistula_Colorectal"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Medipath_Hospital.Medipath_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Cancer"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.General_Laparoscopic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Neuromedicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Medipath_Hospital.Mental_Diseases"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Central_Hospital.Central_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Central_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Central_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Central_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Central_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Central_Hospital.Medicine"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Al_Arafa_Hospital.Al_Arafa_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.Cancer"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Al_Arafa_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity android:name=".MainClass_Hos.Micropath_Hospital.Micropath_Hospital" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.Gynecology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.Medicine_Rheumatology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.Urology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Micropath_Hospital.General_Surgery"
+            android:exported="false" />
+        <activity android:name=".FireBaseAuth.ForgotPassword" />
+        <activity android:name=".FireBaseAuth.Register" />
+        <activity android:name=".FireBaseAuth.Login" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Laparoscopic_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Gynecology_Obstetrics"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_General_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Eye"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Dental"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Colorectal_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Cancer"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Metropolitan_Hospital.Metropolitan_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Urology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Skin"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Physical_Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Neurosurgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Neurology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Liver_Hepatologist"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Kidney"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Hematology_Blood"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Gynecology_Obstetrics"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_General_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Gastroenterology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Chest_Asthma"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Popular_D_C_LTD.Popular_D_C_LTD"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Urology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Skin"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Physical_Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Neuromedicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Laparoscopic_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Gynecology_Obstetrics"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Gastroenterology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Chest_Asthma"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Labaid_Hospital.Labaid_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Skin"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Plastic_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Pediatric"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Neuromedicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Neurology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Laparoscopic_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Gastroenterology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Eye"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Dental"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.Cardiac_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.IBMC_Hospital.IBMC_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Oncology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Neurosurgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Nephrology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Neuromedicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Gynecology_Obstetrics"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.Anesthesiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Anesthesiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Cancer"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Cardiology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Child"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Dental"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.ENT"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.General_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Kidney"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Medicine"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Skin"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Plastic_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Urology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Orthopedic"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Neurology"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Gynecology_Obstetrics"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Colorectal_Surgery"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.CDM_Hospital.CDM_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Hos.Amana_Hospital.Amana_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".MainClass_Doc.Medicine"
+            android:exported="false" />
+        <activity android:name=".MainClass_Doc.Laparoscopic_Surgery" />
+        <activity android:name=".MainClass_Doc.VascularSurgery" />
+        <activity android:name=".MainClass_Doc.Urology" />
+        <activity android:name=".MainClass_Doc.Skin" />
+        <activity android:name=".MainClass_Doc.Sex" />
+        <activity android:name=".MainClass_Doc.Rheumatology" />
+        <activity android:name=".MainClass_Doc.Psychiatry_Mental" />
+        <activity android:name=".MainClass_Doc.PhysicalMedicine" />
+        <activity android:name=".MainClass_Doc.PlasticSurgery" />
+        <activity android:name=".MainClass_Doc.Pediatric" />
+        <activity android:name=".MainClass_Doc.Orthopedic" />
+        <activity android:name=".MainClass_Doc.Neurosurgery" />
+        <activity android:name=".MainClass_Doc.Neuromedicine" />
+        <activity android:name=".MainClass_Doc.Neurology" />
+        <activity android:name=".MainClass_Doc.Liver" />
+        <activity android:name=".MainClass_Doc.Kidney" />
+        <activity android:name=".MainClass_Doc.Infertility" />
+        <activity android:name=".MainClass_Doc.Gynecology_obstetrics" />
+        <activity android:name=".MainClass_Doc.Hematology__Blood" />
+        <activity android:name=".MainClass_Doc.General_Surgery" />
+        <activity android:name=".MainClass_Doc.Gastroenterology" />
+        <activity android:name=".MainClass_Doc.Eye" />
+        <activity android:name=".MainClass_Doc.ENT" />
+        <activity android:name=".MainClass_Doc.Diabetes_Hormone" />
+        <activity android:name=".MainClass_Doc.Dental" />
+        <activity android:name=".MainClass_Doc.Cardiac_Surgery" />
+        <activity android:name=".MainClass_Doc.Colorectal_Surgery" />
+        <activity android:name=".MainClass_Doc.Child" />
+        <activity android:name=".MainClass_Doc.Chest_Asthma" />
+        <activity android:name=".MainClass_Doc.Cardiology" />
+        <activity android:name=".MainClass_Doc.Cancer" />
+        <activity
+            android:name=".MainClass_Doc.Anesthesiology"
+            android:exported="false"
+            android:theme="@style/Theme.DocInfoService.NoActionBar" />
+        <activity android:name=".MyRecyclerViewActivity" />
+        <activity android:name=".Comment" />
+        <activity android:name=".Contact" />
+        <activity android:name=".View_testreport" />
+        <activity android:name=".Up_testreport" />
+        <activity android:name=".MainClass_Hos.Hospital_list" />
+        <activity android:name=".MainClass_Doc.Doc_Categories" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

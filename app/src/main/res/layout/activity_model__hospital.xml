@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainClass_Hos.Model_Hospital.Model_Hospital">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C6EFF7"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:text="Rajshahi Model Hospital Limited"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:padding="15dp"
+            android:text="Child"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button1"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="General Surgery"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button2"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="General_Laparoscopic"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button3"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Gynecology"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button4"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Medicine"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button5"
+            tools:ignore="OnClick" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="20dp"
+            android:height="50dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Piles Fistula Colorectal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#00B4D8"
+            android:onClick="bt"
+            android:id="@+id/button6"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>
