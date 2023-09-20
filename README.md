@@ -1,6 +1,7 @@
 # Project Title
-
 DocInfoService
+
+# Project Description
 This project is an Android Mobile Application which allows the users to obtain information of doctors and hospitals near him. The app can also save all the information related to the treatment of the patient.
 
 # Screenshots
